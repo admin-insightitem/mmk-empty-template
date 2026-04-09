@@ -1,0 +1,25 @@
+{
+  "channels": [
+    {
+      "name": "삼프로TV",
+      "channel_id": "UChlv4GSd7OQl3js-jkLOnFA",
+      "keywords": ["증시", "주식", "코스피", "코스닥", "시황", "전망", "투자"]
+    },
+    {
+      "name": "슈카월드",
+      "channel_id": "UCsJ6RuBiTVWRX156FVbeaGg",
+      "keywords": ["주식", "증시", "경제", "투자", "코스피"]
+    }
+  ],
+  "filter": {
+    "keywords": ["증시", "시황", "코스피", "코스닥", "주식", "전망", "마감", "개장"],
+    "exclude_keywords": ["shorts", "광고"],
+    "max_video_age_hours": 24
+  },
+  "summary": {
+    "language": "ko",
+    "max_length": 500
+  },
+  "processed_videos_path": "scripts/processed_videos.json",
+  "check_interval_minutes": 60
+}
