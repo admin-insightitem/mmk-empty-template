@@ -21,5 +21,12 @@
     "max_length": 500
   },
   "processed_videos_path": "scripts/processed_videos.json",
-  "check_interval_minutes": 60
+  "check_interval_minutes": 60,
+  "slack": {
+    "channel_name": "stock-alerts"
+  },
+  "notion": {
+    "database_name": "주식 유튜브 요약",
+    "parent_page_id": ""
+  }
 }
